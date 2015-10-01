@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" android:orientation="vertical">
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/Text1"
+    android:text="선택을 시작하겠습니까?"
+    />
+
+<Switch
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/S1"
+    android:text="시작함"
+    />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/Text2"
+    android:text="좋아하는 안드로이드 버전은?"
+    />
+
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/Rgroup1"
+    android:visibility="invisible">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/R1"
+        android:text="젤리빈 (4.3)"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/R2"
+        android:text="킷캣 (4.4)"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/R3"
+        android:text="롤리팝 (5.0)"
+        />
+
+</RadioGroup>
+
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:id="@+id/Im1"
+    android:visibility="invisible"
+    />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/B1"
+    android:text="종료"
+    android:visibility="invisible"
+    />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/B2"
+    android:text="처음으로"
+    android:visibility="invisible"
+    />
+
+</LinearLayout>
